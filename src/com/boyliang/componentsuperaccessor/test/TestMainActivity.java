@@ -46,6 +46,7 @@ public final class TestMainActivity extends Activity{
 		intent_for_activity.putExtra("data", HTML);
 		intent_for_activity.putExtra("baseurl", "http://sina.cn/");
 		intent_for_activity.putExtra("title", "I am bad boy");
+		SuperAccessor.startActivity(this, intent_for_activity);
 	}
 	
 	@Override
