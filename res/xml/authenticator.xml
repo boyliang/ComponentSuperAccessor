@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="com.android.testplugin.AccountType"
+    android:icon="@drawable/browser_test_plugin"
+    android:label="@string/label"
+    android:smallIcon="@drawable/browser_test_plugin" />
